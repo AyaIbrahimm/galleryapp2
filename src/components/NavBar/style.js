@@ -47,7 +47,15 @@ export const Anchor= styled.a`
     }
 
 `
-
+export const Image = styled.img`
+width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 2px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+`
 export const Line = styled.hr `
     
   border: 0.5px solid black;

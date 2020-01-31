@@ -1,7 +1,7 @@
 import React from 'react'
 // import {Link} from 'react-router-dom'
-import {NavBarSec , Logo , LogoText , ULlist , ListItem , Anchor, Line, Dropdown, DropdownContent , DropdownAnchor} from './style.js'
-
+import {NavBarSec , Image , LogoText , ULlist , ListItem , Anchor, Line, Dropdown, DropdownContent , DropdownAnchor} from './style.js'
+import logo from './logo.png'
 
 
 const NavBar=()=>{
@@ -9,9 +9,7 @@ const NavBar=()=>{
       <React.Fragment>
             <NavBarSec>
          <div className="container">
-             {/* <Logo>
-                 <LogoText> Wed360 </LogoText>
-             </Logo> */}
+         <Image src={logo} alt="Logo" />
              <Line/>
             
              <ULlist >

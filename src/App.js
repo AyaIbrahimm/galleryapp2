@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Provider } from 'react-redux';
 
-
 import ImageGrid from './components/ImageGrid';
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
