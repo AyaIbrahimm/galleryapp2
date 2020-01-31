@@ -6,7 +6,7 @@ import ImageGrid from './components/ImageGrid';
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import Work from './components/Work'
-import SearchBar from './components/SearchBar'
+
 import configureStore from './store';
 
 const store = configureStore();
@@ -19,8 +19,9 @@ class App extends Component {
         return (
             <Provider store={store}>
                 <Fragment>
-                <NavBar />
-                <SearchBar userSubmit={this.onSearchSubmit}/>
+                <NavBar />  
+              
+           
                     <ImageGrid />
                     <Work />
                     <Footer />

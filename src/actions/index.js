@@ -14,12 +14,6 @@ const setError = error => ({
     error,
 });
 
- const search = text => ({
-   
-      type: IMAGES.SEARCH,
-      payload: text
-   
-  });
 
 
 
@@ -29,6 +23,6 @@ export {
     loadImages,
     setImages,
     setError,
-    search,
+    
   
 };
